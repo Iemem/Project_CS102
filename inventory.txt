@@ -1,0 +1,11 @@
+Loaf,3.29,90
+Trout,9.49,80
+Poultry,7.59,60
+Dairy,4.49,120
+Gouda,5.79,35
+Pear,2.49,120
+Bison,14.79,20
+Plantain,3.19,90
+Quail Eggs,3.19,40
+Fusilli,1.49,40
+Chai,2.19,40
