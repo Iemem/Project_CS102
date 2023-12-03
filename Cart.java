@@ -22,32 +22,32 @@ public class Cart {
 
     public void addItem(Product item, int Quant) {
         if (this.size == this.items.length) {
-            //cart is full, double its size
+            
 
-            //create new arrays double the old size
+            
             Product[] newItems = new Product[this.size * 2];
             int[] newQuantities = new int[this.size * 2];
-            //copy old items and quantities to new array
+            
             for (int i = 0; i < this.items.length; i++) {
                 newItems[i] = this.items[i];
                 newQuantities[i] = this.quantities[i];
             }
-            //add the item & quantity
+            
             newItems[size] = item;
             newQuantities[size] = Quant;
-            //set the newly created arrays as the new item and quantity arrays
+            
             this.items = newItems;
             this.quantities = newQuantities;
-            //increase size by 1
+            
             this.size++;
 
         } else {
-            // if the cart is not full, add the item
+            /
             this.items[size] = item;
             this.quantities[size] = Quant;
             this.size++;
         }
-//if the item exists remove the first occurance, otherwise do nothing
+
     }
 
     public void removeItem(Product item) {
@@ -63,7 +63,7 @@ public class Cart {
     }
 
     public boolean containsItem(Product item) {
-        //return true if item is already in cart otherwise false
+        
         for (int i = 0; i < items.length; i++) {
             if (items[i] == null) {
                 continue;
